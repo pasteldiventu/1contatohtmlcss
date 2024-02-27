@@ -1,0 +1,62 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    }
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #36302F;
+    color: #2DE09F;
+}
+h1 {
+    font-size:40px ;
+    color: #2DE09F;
+
+}
+
+p{
+    font-size: 24px;;
+
+}
+header {
+    background-color: lightblue;
+    color: #2DE09F;
+
+}
+a {
+    font-size: 18px;
+    color: dodgerblue;
+
+}
+strong {
+    color: #2DACE0;
+    border: 1px solid #2DACE0;
+    padding: 3px;
+}
+
+.salsicha{
+    margin: 4% 15%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.conteudo {
+    width: 615px;
+    display: flex; 
+    flex-direction: column;
+    gap: 40px;
+}
+
+.linkbotao{
+        background-color: #22d4fd;
+        width: 280px;
+        text-align: center;
+        border-radius: 16px;
+        font-size: 24px;
+        padding: 22px 0;
+        text-decoration: none;
+        color: #000;
+        font-family: "Montserrat", sans-serif;
+    }
