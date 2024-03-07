@@ -4,6 +4,22 @@
     padding: 0;
     }
 
+.cabecalho {
+        padding: 0% 0 0 25%;
+    
+    }
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+
+}
+.cabecalho__links{
+    color: #2DE09F;
+    text-decoration: none;
+}
+
+
+
 body {
     height: 100vh;
     box-sizing: border-box;
@@ -21,7 +37,7 @@ p{
 
 }
 header {
-    background-color: lightblue;
+    background-color: #36302F;
     color: #2DE09F;
 
 }
@@ -33,11 +49,12 @@ a {
 strong {
     color: #2DACE0;
     border: 1px solid #2DACE0;
+    border-radius: 18px;
     padding: 3px;
 }
 
 .salsicha{
-    margin: 4% 15%;
+    margin: 10% 9%;
     display: flex;
     align-items: center;
     justify-content:space-between;
@@ -46,17 +63,23 @@ strong {
     width: 615px;
     display: flex; 
     flex-direction: column;
-    gap: 40px;
+    gap: 20px;
 }
 
 .linkbotao{
-        background-color: #22d4fd;
+        border: 2px dashed;
         width: 280px;
         text-align: center;
         border-radius: 16px;
         font-size: 24px;
         padding: 22px 0;
         text-decoration: none;
-        color: #000;
+        color: #2DE09F;
         font-family: "Montserrat", sans-serif;
     }
+
+.linkbotao:hover {
+        background-color: #2DACE0;
+    
+}
+.rodape{ text-align:center;}
